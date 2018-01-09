@@ -1,0 +1,30 @@
+*denite-runtimepath.txt*  denite.nvim source for runtimepath
+
+Author: notomo
+License: MIT License (See LICENSE)
+
+
+==============================================================================
+INTRODUCTION				*denite-runtimepath-introduction*
+
+*denite-runtimepath* is a |denite.nvim| source for runtimepath.
+
+
+==============================================================================
+SOURCE					*denite-runtimepath-source*
+
+runtimepath	Gather runtimepath.
+
+
+==============================================================================
+KIND					*denite-runtimepath-kind*
+
+runtimepath	An interface to deal with the runtimepath.
+		It extends |denite-kind-directory|.
+
+					*denite-runtimepath-actions*
+	delete
+		Delete the runtimepath.
+
+==============================================================================
+vim:tw=78:fo=tcq2mM:ts=8:ft=help:norl
